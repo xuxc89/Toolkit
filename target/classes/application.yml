@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    data-username:
+    data-password:
+    initialize: false
+    driver-class-name: com.mysql.jdbc.Driver
+    url:
+server:
+  port: 10086
+file:
+  upload: D:/update/      #windows
+blog:
+  value: ${random.value(5)}
+#  upload: /home/xx/xx     #linux
+#logging:
+#  config:
+#    org.springframework:
+#          data: DEBUG
+#          security: DEBUG
+#  level: debug
+#  file: log.log
+#  path: F:/log/
+
+#log:
+#  path: F:/logs-file
+#  level: info
+
